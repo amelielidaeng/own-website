@@ -3,13 +3,16 @@
     margin-top: 2rem;
 }
 
-.card {
+.card { /*this needs to be re-classed*/
     margin-top: 1rem;
     min-height: 600px;
     font-family: "Fugaz One", italic;
-    text-transform: uppercase;
 }
 //add media for min-height on tablet/mobile
+
+.card-title {
+    text-transform: uppercase;
+}
 
 .card-img {
     width: 100%;
@@ -27,19 +30,19 @@
 }
 
 @media only screen and (max-width: 575px) {
-    .card-title {
+    .title-landing {
       font-size: 55px;
     }
   }
 
 @media only screen and (min-width: 576px) {
-    .card-title {
+    .title-landing {
         font-size: 34px;
     }
 }
 
 @media only screen and (min-width: 900px) {
-    .card-title {
+    .title-landing {
         font-size: 55px;
     }
 }
