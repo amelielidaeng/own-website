@@ -1,0 +1,26 @@
+.navbar {
+    height: 200px;
+    font-family: "Fugaz One", italic;
+//  text-transform: uppercase;
+    text-shadow: 1px white;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ff5376;
+    text-shadow: 1px 1px #fcf7f8;
+    font-size: 40px;
+
+    &:hover {
+        color: #9dfff9;
+    }
+}
+
+.link-light {
+    color: #ff5376;
+    text-shadow: 1px 1px #fcf7f8;
+
+    &:hover {
+        color: #9dfff9;
+    }
+}
+
