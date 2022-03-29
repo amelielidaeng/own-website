@@ -26,4 +26,22 @@
     }
 }
 
+@media only screen and (max-width: 575px) {
+    .card-title {
+      font-size: 55px;
+    }
+  }
+
+@media only screen and (min-width: 576px) {
+    .card-title {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .card-title {
+        font-size: 55px;
+    }
+}
+
 //add media for font-size on desktop/tablet/mobile 
