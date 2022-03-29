@@ -1,5 +1,4 @@
 .container-lg {
-    border: 1px solid blue; 
     min-height: 700px;
     margin-top: 2rem;
 }
@@ -7,10 +6,24 @@
 .card {
     margin-top: 1rem;
     min-height: 600px;
+    font-family: "Fugaz One", italic;
+    text-transform: uppercase;
 }
 //add media for min-height on tablet/mobile
 
-.img-landing {
+.card-img {
     width: 100%;
     overflow: hidden;
 }
+
+.landing-link {
+    text-decoration: none;
+    color: black; 
+    text-shadow: white 2px 1px;
+
+    &:hover {
+        color: rgb(255, 166, 181);
+    }
+}
+
+//add media for font-size on desktop/tablet/mobile 

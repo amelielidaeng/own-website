@@ -1,1 +1,1 @@
-body{border:2px red solid}.container-lg{border:1px solid blue;min-height:700px;margin-top:2rem}.card{margin-top:1rem;min-height:600px}.img-landing{width:100%;overflow:hidden}
+.container-lg{min-height:700px;margin-top:2rem}.card{margin-top:1rem;min-height:600px;font-family:"Fugaz One",italic;text-transform:uppercase}.card-img{width:100%;overflow:hidden}.landing-link{text-decoration:none;color:black;text-shadow:white 2px 1px}.landing-link:hover{color:#ffa6b5}
