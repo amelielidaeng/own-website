@@ -11,25 +11,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fugaz+One&family=Mukta&family=Roboto+Slab:wght@600;900&display=swap" rel="stylesheet">
 </head>
-<body class="d-flex flex-column min-vh-100">
-    <nav class="navbar sticky-top navbar-dark bg-dark px-2 align-items-end" >
-        <a class="navbar-brand mb-0 h1" href="/index.html">Amelie Lidäng</a>
+<body class="d-flex flex-column min-vh-800">
+    <nav class="navbar navbar-dark bg-dark px-2 align-items-end">
+        <a class="navbar-brand mb-0 h1" href="/index.html">Amelie Lidäng.</a>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link link-light" href="/pages/about.html">bla.</a>
+                <a class="nav-link link-light" href="#about">about.</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link link-light" href="/pages/to-buy.html">bla.</a>
+                <a class="nav-link link-light" href="#works">works.</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link link-light" href="/pages/to-mend.html">bla.</a>
+                <a class="nav-link link-light" href="#skills">skills.</a>
             </li>
-      </ul>
+            <li class="nav-item">
+                <a class="nav-link link-light" href="#contact">contact.</a>
+            </li>
+        </ul>
     </nav>
     <main>
-        <div class="container">
+        <div class="container-fluid portfolio-about">
+            <div class="card text-center" id="about">
+                hello customers this is about section
+            </div>
+        </div>
+        <div class="container-fluid portfolio-grid" id="works">
             <div class="card text-center">
-                hello customers
+                here goes grid with works
+            </div>
+        </div>
+        <div class="container-fluid portfolio-cv" id="skills">
+            <div class="card text-center">
+                <div class="container list list-education">
+                    list my schooling
+                </div>
+                <div class="container list list-skills">
+                    list my skills
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid portfolio-form" id="contact">
+            <div class="card text-center">
+                form goes here
             </div>
         </div>
     </main>
