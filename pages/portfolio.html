@@ -30,40 +30,67 @@
         </ul>
     </nav>
     <main>
-        <div class="container-fluid portfolio-about">
-            <div class="card text-center border-0" id="about">
-                <h4 class="card-title">
-                    hello customers this is about section
-                </h4>
-                <p class="card-text text-portfolio">I am a front end developer and all over extraordinaire. With 
-                    a passion for structure, color and function I create websites tailored to 
-                    your needs. My background is in textiles, fashion and communication which 
-                    gives me somethign somethign tsomthing else that is really smart and kinda 
-                    funny just add smart and funny stuff ehre ok
-                </p>
+        <!--maybe just remove title and add a pic-->
+        <section class="container portfolio-about">
+            <h4 class="card-title text-center">
+                ABOUT SECTION
+            </h4>
+            <div class="row about align-items-end justify-content-between">
+                <div class="col-sm-2 about-col">
+                    bild här - happy and pro-fesh-i-o-nal
+                    <!--maybe use
+                    <img src="..." class="rounded float-start" alt="...">
+                    to push to start of container but keep text column further to the right? 
+                    -->
+                </div>
+                <div class="col-sm-7 about-col">
+                    <p class="portfolio-text">
+                        I am a front end developer and all over creator extraordinaire. With 
+                        a passion for structure, color and function I create websites tailored to 
+                        your needs. My background is in textiles, fashion and communication which 
+                        gives me an edge somethign somethign tsomthing else that is really smart and kinda 
+                        funny just add smart and funny stuff here ok
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="container-fluid portfolio-grid" id="works">
+        </section>
+        <div class="container portfolio-grid" id="works">
             <div class="card text-center border-0">
                 <h4 class="card-title">
                     here goes grid with works
                 </h4>
             </div>
         </div>
-        <div class="container-fluid portfolio-cv" id="skills">
-            <div class="card text-center border-0">
-                <h4 class="card-title">
+        <div class="container portfolio-cv" id="skills">
+            <div class="card">
+                <h4 class="card-title text-center">
                     Experience
                 </h4>
-                <div class="container list list-education">
-                    list my schooling
-                </div>
-                <div class="container list list-skills">
-                    list my skills
+                <div class="row justify-content-between">
+                    <div class="col-sm-5">
+                        <ul>
+                            <li>Sundsgårdens folkhögskola, Front End Developer, 2022</li>
+                            <li>Circular economy and Innovative textiles, Borås Textilhögskola, 2021-2022</li>
+                            <li>Lunds Universitet, Intermedial studies, 2012-2014</li>
+                            <li>Önnestad folkhögskola, Textiles, 2014</li> <!--check CV for year-->
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS and Sass</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <!--
+                            also: get ipad and work on procreate etc
+                            also: work on wordpress skills
+                            -->
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid portfolio-form" id="contact">
+        <div class="container portfolio-form" id="contact">
             <div class="card text-center border-0">
                 <h4 class="card-title">
                     form goes here

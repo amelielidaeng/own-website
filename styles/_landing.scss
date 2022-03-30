@@ -3,16 +3,12 @@
     margin-top: 2rem;
 }
 
-.card { /*this needs to be re-classed*/
+.card-landing { /*this needs to be re-classed*/
     margin-top: 1rem;
     min-height: 600px;
     font-family: "Fugaz One", italic;
 }
 //add media for min-height on tablet/mobile
-
-.card-title {
-    text-transform: uppercase;
-}
 
 .card-img {
     width: 100%;
